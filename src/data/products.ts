@@ -1,0 +1,122 @@
+export const products = [
+  {
+    id: 1,
+    name: "Sesderma Azelac RU Liposomal Serum",
+    price: 2650,
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800",
+    features: ["Lightens Spots", "Targets Pigmentation", "Evens Skin Tone"],
+    size: "30 ml",
+    category: "skincare",
+    reviews: { rating: 4.75, count: 139 },
+    stock: true,
+    provider: 'A'
+  },
+  {
+    id: 2,
+    name: "Vitamin C Brightening Serum",
+    price: 1899,
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
+    features: ["Brightening", "Anti-aging", "Antioxidant"],
+    size: "50 ml",
+    category: "skincare",
+    reviews: { rating: 4.8, count: 245 },
+    stock: true,
+    provider: 'B'
+  },
+  {
+    id: 3,
+    name: "Hyaluronic Acid Moisturizer",
+    price: 1299,
+    image: "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=800",
+    features: ["Hydrating", "Plumping", "Anti-wrinkle"],
+    size: "100 ml",
+    category: "skincare",
+    reviews: { rating: 4.6, count: 189 },
+    stock: true,
+    provider: 'G'
+  },
+  {
+    id: 4,
+    name: "Retinol Night Cream",
+    price: 2199,
+    image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800",
+    features: ["Anti-aging", "Skin Renewal", "Collagen Boost"],
+    size: "50 ml",
+    category: "skincare",
+    reviews: { rating: 4.9, count: 312 },
+    stock: true,
+    provider: 'A'
+  },
+  {
+    id: 5,
+    name: "Rose Water Toner",
+    price: 899,
+    image: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=800",
+    features: ["Refreshing", "Balancing", "Natural"],
+    size: "200 ml",
+    category: "skincare",
+    reviews: { rating: 4.7, count: 156 },
+    stock: true,
+    provider: 'B'
+  },
+  {
+    id: 6,
+    name: "Luxury Rose Perfume",
+    price: 4999,
+    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+    features: ["Long-lasting", "Floral Notes", "Premium Blend"],
+    size: "50 ml",
+    category: "perfumes",
+    reviews: { rating: 4.9, count: 428 },
+    stock: true,
+    provider: 'A'
+  },
+  {
+    id: 7,
+    name: "Ocean Breeze Perfume",
+    price: 3499,
+    image: "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+    features: ["Fresh Scent", "Marine Notes", "All-day Wear"],
+    size: "75 ml",
+    category: "perfumes",
+    reviews: { rating: 4.6, count: 312 },
+    stock: true,
+    provider: 'G'
+  },
+  {
+    id: 8,
+    name: "Keratin Hair Treatment",
+    price: 1499,
+    image: "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=800",
+    features: ["Anti-frizz", "Smoothing", "Heat Protection"],
+    size: "200 ml",
+    category: "haircare",
+    reviews: { rating: 4.8, count: 567 },
+    stock: true,
+    provider: 'B'
+  },
+  {
+    id: 9,
+    name: "Argan Oil Hair Mask",
+    price: 899,
+    image: "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=800",
+    features: ["Deep Conditioning", "Repair", "Shine"],
+    size: "250 ml",
+    category: "haircare",
+    reviews: { rating: 4.7, count: 423 },
+    stock: true,
+    provider: 'G'
+  },
+  {
+    id: 10,
+    name: "Biotin Hair Growth Serum",
+    price: 1299,
+    image: "https://images.unsplash.com/photo-1559599101-f09722fb4948?w=800",
+    features: ["Promotes Growth", "Strengthening", "Natural"],
+    size: "100 ml",
+    category: "haircare",
+    reviews: { rating: 4.5, count: 289 },
+    stock: true,
+    provider: 'A'
+  }
+];
